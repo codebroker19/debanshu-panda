@@ -28,13 +28,7 @@
       </div>
     </header>
 
-<nav class="nav-menu">
-  <div class="close-nav-menu outer-shadow hover-in-shadow">&times;</div>
-  <div class="nav-menu-inner">
 
-  </div>
-  <p class="copyright-text">@Debanshu Panda</p>
-</nav>
 
 <section class="home-section section">
   <div class="effect-wrap">
@@ -49,20 +43,20 @@
 <div class="container">
   <div class="row full-screen align-items-center">
 <div class="home-text">
-  <p>Hello</p>
-  <h1>I'm Debanshu</h1>
-  <h2>A software Engineer</h2>
-  <a href="#skillpart" class="btn-1 outer-shadow hover-in-shadow">Know Me</a>
+  <p class="dark">Hello</p>
+  <h1 class="dark">I'm Debanshu</h1>
+  <h2 class="dark">A software Engineer</h2>
+  <a href="#skillpart" class="dark btn-1 outer-shadow hover-in-shadow ">Know Me</a>
 </div>
 <div class="home-img">
 <div class="img-box">
-<img src="img/circle.png" class="outer-shadow" alt="profilepic">
+<img src="img/programmer.gif" class="outer-shadow" alt="profilepic">
 </div>
 </div>
   </div>
   <div class="style-switcher outer-shadow">
-    <div class="day-night s-icon outer-shadow hover-in-shadow">
-      <i class="fas fa-moon"></i>
+    <div onclick="toggleme()" class="day-night s-icon outer-shadow hover-in-shadow">
+    <i  class="fas fa-moon"></i>
     </div>
   </div>
 </div>
@@ -71,14 +65,14 @@
   <div class="container">
     <div class="row">
       <div class="section-title">
-        <h2>About Me</h2>
+        <h2 class="dark">About Me</h2>
       </div>
     </div>
     <div class="row">
       </div>
       
       <div class="about-info">
-<h5><span>I am Debanshu Panda, a Computer Science undergrad with a specialization in Software Engineering from SRM Kattankulathur. 
+<h5><span class="dark">I am Debanshu Panda, a Computer Science undergrad with a specialization in Software Engineering from SRM Kattankulathur. 
   I love technology and try to stay up to date with the latest trends. I am always striving to learn new things and technologies. 
   During the first two years, my main area of interest was Web Development based on which I made a few projects which you can see 
   in my projects section. Later for a change, I decided to shift my base to Python and fields like AI(Artificial Intelligence) 
@@ -92,15 +86,15 @@
       
     </div>
     <div class="aboutbutton">
-      <a href="#"  class= "btn-1 outer-shadow hover-in-shadow download">Download CV</a>
-<a href="#contact" class="btn-1 outer-shadow hover-in-shadow download">Contact Me</a>
+      <a href="file:///C:/Users/deban/Downloads/Debanshu's%20Resume(11).pdf"   class= "btn-1 outer-shadow hover-in-shadow download" target="_blank">Resume</a>
+<a href="#contact"  class="btn-1 outer-shadow hover-in-shadow download">Contact Me</a>
     </div>
     <div class="row">
       <div id="skillpart"class="about-tabs">
 
-        <span class="tab-item outer-shadow active" data-target=".skills">Skills</span>
-        <span class="tab-item" data-target=".experience">Experience</span>
-        <span class="tab-item" data-target=".education">Education</span>
+        <span class="tab-item outer-shadow active btn-1" data-target=".skills">Skills</span>
+        <span class="tab-item btn-1" data-target=".experience">Experience</span>
+        <span class="tab-item btn-1" data-target=".education">Education</span>
 
       </div>
     </div>
@@ -108,36 +102,48 @@
     <div class="skills tab-content active">
       <div class="row">
         <div class="skill-item">
-        <img src="img/c.png" alt="c-logo">
-        <p>C</p>
-        </div>
+          <img src="img/c++.png" alt="c++logo">
+          <p class="dark">C++</p>
+          </div>
 
         <div class="skill-item">
-        <img src="img/c++.png" alt="c++logo">
-        <p>C++</p>
+        <img src="img/c.png" alt="c-logo">
+        <p class="dark">C</p>
         </div>
 
         <div class="skill-item">
         <img src="img/HTML.png" alt="html-logo">
-        <p>HTML</p>
+        <p class="dark">HTML</p>
         </div>
 
         <div class="skill-item">
         <img src="img/css.png" alt="css-logo">
-        <p>CSS</p>
+        <p class="dark">CSS</p>
         </div>
 
         <div class="skill-item">
         <img src="img/javascript.png" alt="javascript-logo">
-        <p>JAVASCRIPT</p>
+        <p class="dark">JAVASCRIPT</p>
         </div>
 
         <div class="skill-item">
-        <img src="img/github.png" alt="github-logo">
-        <p>GITHUB</p>
+        <img src="img/github.svg" alt="github-logo">
+        <p class="dark">GITHUB</p>
         </div>
 
+        <div class="skill-item">
+          <img src="img/node.jpg" alt="javascript-logo">
+          <p class="dark">NodeJs</p>
+          </div>
+          <div class="skill-item">
+            <img src="img/python.png" alt="c-logo">
+            <p class="dark">Python</p>
+            </div>
 
+            <div class="skill-item">
+              <img src="img/react.svg" alt="c-logo">
+              <p class="dark">ReactJs</p>
+              </div>
 
       </div>
     </div>
@@ -151,30 +157,30 @@
             <div class="timeline-item">
               <div class="timeline-item-inner outer-shadow">
                 <i class="fas fa-laptop-code fa-lg"></i>
-                <span>04/21-09/21</span>
-                <h3>Synans</h3>
-                <h4>Full Stack Devloper Intern</h4>
-                <span>As a Full-Stack Developer, I was assigned the role to fulfill the client's website requirements. I was responsible for the design of the website and had to communicate with the database to get the required results on the front end each time the admin added new data on the website.</span>
+                <span class="edu/wrk">04/21-09/21</span>
+                <h3 class="dark">Synans</h3>
+                <h4 class="dark">Full Stack Devloper Intern</h4>
+                <span class="edu/wrk">As a Full-Stack Developer, I was assigned the role to fulfill the client's website requirements. I was responsible for the design of the website and had to communicate with the database to get the required results on the front end each time the admin added new data on the website.</span>
               </div>
             </div>
 
             <div class="timeline-item">
               <div class="timeline-item-inner outer-shadow">
                 <i class="fas fa-pen fa-lg"></i>
-                <span>03/21-07/21</span>
-                <h3>GeeksforGeeks</h3>
-                <h4>Technical Content Writer</h4>
-                <span>During my tenure in GeeksforGeeks, I wrote articles on several technical topics that students struggled with and provided a detailed analysis of the logic behind it and a detailed description of a simple and efficient code.</span>
+                <span class="edu/wrk">03/21-07/21</span>
+                <h3 class="dark">GeeksforGeeks</h3>
+                <h4 class="dark">Technical Content Writer</h4>
+                <span class="edu/wrk">During my tenure in GeeksforGeeks, I wrote articles on several technical topics that students struggled with and provided a detailed analysis of the logic behind it and a detailed description of a simple and efficient code.</span>
               </div>
             </div>
 
             <div class="timeline-item">
               <div class="timeline-item-inner outer-shadow">
                 <i class="fas fa-user-tie fa-lg"></i>
-                <span>01/21-04/21</span>
-                <h3>Coding Ninjas</h3>
-                <h4>Campus Ambassador</h4>
-                <span>As a campus ambassador, I helped them promote a coding culture within my college and highlight its importance in the current scenario. I lent a helping hand in conducting several coding competitions in my college and by the end of my tenure, I was able to convince a few of my friends to become campus ambassadors themselves.</span>
+                <span class="edu/wrk">01/21-04/21</span>
+                <h3 class="dark">Coding Ninjas</h3>
+                <h4 class="dark">Campus Ambassador</h4>
+                <span class="edu/wrk">As a campus ambassador, I helped them promote a coding culture within my college and highlight its importance in the current scenario. I lent a helping hand in conducting several coding competitions in my college and by the end of my tenure, I was able to convince a few of my friends to become campus ambassadors themselves.</span>
               </div>
             </div>
 
@@ -195,29 +201,29 @@
             <div class="timeline-item">
               <div class="timeline-item-inner outer-shadow">
                 <i class="fas fa-university fa-lg"></i>
-                <span>06/19-current</span>
-                <h3>B.Tech</h3>
-                <h4>SRM IST Kattankulathur</h4>
-                <span>I am currently pursuing my undergrad in computer science with a specialization in software engineering with a current average GPA of 9.07 and will graduate in 06/2023.</span>
+                <span class="edu/wrk">06/19-current</span>
+                <h3 class="dark">B.Tech</h3>
+                <h4 class="dark">SRM IST Kattankulathur</h4>
+                <span class="edu/wrk">I am currently pursuing my undergrad in computer science with a specialization in software engineering with a current average GPA of 9.07 and will graduate in 06/2023.</span>
               </div>
             </div>
 
             <div class="timeline-item">
               <div class="timeline-item-inner outer-shadow">
                 <i class="fas fa-school fa-lg"></i>
-                <span>03/18-03/19</span>
-                <h3>Class-XII</h3>
-                <h4>Delhi Public School Greater Noida</h4>
-                <span>I completed my high school degree in a CBSE-affiliated school. With an aggregate of 80%, my main subjects were Physics, Chemistry, Maths, and English and Physical Education as secondary subjects. </span>
+                <span class="edu/wrk">03/18-03/19</span>
+                <h3 class="dark">Class-XII</h3>
+                <h4 class="dark">Delhi Public School Greater Noida</h4>
+                <span class="edu/wrk">I completed my high school degree in a CBSE-affiliated school. With an aggregate of 80%, my main subjects were Physics, Chemistry, Maths, and English and Physical Education as secondary subjects. </span>
               </div>
             </div>
 
             <div class="timeline-item">
               <div class="timeline-item-inner outer-shadow">
                 <i class="fas fa-school fa-lg"></i>
-                <span>03/16-03/17</span></span>
-                <h3>Class-X</h3>
-                <h4>Delhi Public School Greater Noida</h4>
+                <span class="edu/wrk">03/16-03/17</span></span>
+                <h3 class="dark">Class-X</h3>
+                <h4 class="edu/wrk">Delhi Public School Greater Noida</h4>
                 <span>I completed my secondary high school diploma in the same CBSE affiliated school with an aggregate of 93.1% and subjects being Physics, Chemistry, Maths, Social Science and English and German being my language preferences.</span>
               </div>
             </div>
@@ -234,14 +240,14 @@
   <div class="container">
     <div class="row">
       <div class="section-title">
-        <h1>Portfolio</h1>
-        <h2>Latest Projects</h2>
+        <h1 class="dark">Portfolio</h1>
+        <h2 class="dark">Latest Projects</h2>
       </div>
     </div>
     <div class="row">
       <div class="portfolio-filter">
-        <span class="filter-item outer-shadow hover-in-shadow active" data-target="webapplication">Web-Applications</span>
-        <span class="filter-item" data-target="other">Other</span>
+        <span class="filter-item outer-shadow hover-in-shadow active dark btn-1" data-target="webapplication">Web-Applications</span>
+        <span class="filter-item dark btn-1" data-target="other">Other</span>
       </div>
     </div>
 
@@ -256,7 +262,7 @@
 <div class="portfolio-item-details">
   <div class="row">
     <div class="description">
-      <span>Secrets is a confessions page made especially for introverts who can share their fear, guilt, pleasure, or emotions here freely without the fear of being judged and at the same time view the confessions of other such introverts with an anonymous identity.</span>
+      <span class="dark">Secrets is a confessions page made especially for introverts who can share their fear, guilt, pleasure, or emotions here freely without the fear of being judged and at the same time view the confessions of other such introverts with an anonymous identity.</span>
     </div>
    
   </div>
@@ -273,7 +279,7 @@
 <div class="portfolio-item-details">
   <div class="row">
     <div class="description">
-      <span>Movies prime is specially made for movie and web series lovers who like to binge-watch the latest Web-Series and movies. You can search over genres and check out the ratings and summary before proceeding with the movie/webseries.</span>
+      <span class="dark">Movies prime is specially made for movie and web series lovers who like to binge-watch the latest Web-Series and movies. You can search over genres and check out the ratings and summary before proceeding with the movie/webseries.</span>
     </div>
   </div>
   <button class="projectbutton"><a href="https://github.com/codebroker19/moviehub/tree/gh-pages">View</a></button>
@@ -289,7 +295,7 @@
 <div class="portfolio-item-details">
   <div class="row">
     <div class="description">
-      <span>The daily journal is your online diary where you can log how your day was and all the special achievements you made that day. All the data is saved in a databse with the related date to it and later you can go through the diary and relive the days.</span>
+      <span class="dark">The daily journal is your online diary where you can log how your day was and all the special achievements you made that day. All the data is saved in a databse with the related date to it and later you can go through the diary and relive the days.</span>
     </div>
   </div>
   <button class="projectbutton"><a href="https://arcane-sea-28361.herokuapp.com/">View</a></button>
@@ -305,7 +311,7 @@
 <div class="portfolio-item-details">
   <div class="row">
     <div class="description">
-      <span>This was an attempt to clone the front page of the Airbnb website using React as the basic framework to check how fast could I implement my skills and check how things move around in a real website.</span>
+      <span class="dark">This was an attempt to clone the front page of the Airbnb website using React as the basic framework to check how fast could I implement my skills and check how things move around in a real website.</span>
     </div>
   </div>
   <button class="projectbutton"><a href="https://github.com/codebroker19/Airbnbclone">View</a></button>
@@ -321,7 +327,7 @@
   <div class="row">
     <div class="description">
       
-      <span>This is a daily activity tracker where you can log all your daily tasks and strike of tasks as you complete them. And at the end of the day, you can check if you managed to crush all your goals or not.</span>
+      <span class="dark">This is a daily activity tracker where you can log all your daily tasks and strike of tasks as you complete them. And at the end of the day, you can check if you managed to crush all your goals or not.</span>
     </div>
   </div>
   <button class="projectbutton"><a href="https://agile-temple-20898.herokuapp.com/">View</a></button>
@@ -338,7 +344,7 @@
   <div class="row">
     <div class="description">
       
-      <span>The following are the articles that I published during my tenure as a Technical Content Writer in GeeksforGeeks.</span>
+      <span class="dark">The following are the articles that I published during my tenure as a Technical Content Writer in GeeksforGeeks.</span>
     </div>
   </div>
   <button class="projectbutton"><a href="https://www.geeksforgeeks.org/how-to-select-deselect-multiple-options-in-dropdown-using-jquery/">Selecting and Deselecting multiple options in jQuery</a></button>
@@ -356,7 +362,7 @@
      <section>
        
          <div class="section-title ">
-           <h2 id="contact">Where can you find me</h2>
+           <h2 id="contact" class="dark">Where can you find me</h2>
          </div>
          
        
@@ -365,10 +371,10 @@
             <a href="mailto:debanshupanda315@gmail.com" target="_blank"></a><img src="img/gmail.png" class ="footerpic" alt="gmail-logo"></a>
            </div>
            <div class="footericon">
-            <a href="https://www.linkedin.com/in/debanshu-panda-666917204/"><img src="img/linkedin.svg" class ="footerpic" alt="linkedin-logo"></a>
+            <a href="https://www.linkedin.com/in/debanshu-panda-666917204/" target="_blank"><img src="img/linkedin.svg" class ="footerpic" alt="linkedin-logo"></a>
           </div>
           <div class="footericon">
-            <a href="https://github.com/codebroker19"><img src="img/github.svg" class ="footerpic"alt="github-logo"></i></a> 
+            <a href="https://github.com/codebroker19" target="_blank"><img src="img/github.svg" class ="footerpic"alt="github-logo"></i></a> 
           </div>
         
          </div>
